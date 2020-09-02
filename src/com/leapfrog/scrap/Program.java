@@ -28,7 +28,7 @@ public class Program {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       String site="http://leapfrog.academy/";
+       String site="http://leapfrog.academy/";  //this site doesnot work for now.
         LinkDAO ldao=new LinkDAOImpl();
        try{
            URL url=new URL(site);
